@@ -42,6 +42,7 @@ while True:
         cv2.putText(img,'Mask detected!',org2, font, fontScale, color, thickness, cv2.LINE_AA)
 
 
+
         
 
     for(x,y,w,h) in eyes:
